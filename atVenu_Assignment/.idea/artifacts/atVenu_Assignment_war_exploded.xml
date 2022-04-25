@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="atVenu_Assignment:war exploded">
+    <output-path>$PROJECT_DIR$/target/poster_sales</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>atVenu_Assignment</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="atVenu_Assignment" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.mariadb.jdbc:mariadb-java-client:3.0.4" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/poster_sales/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="atVenu_Assignment/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,118 @@
+/* Author: Brett Dawson
+* CSS to override/customize Boostrap defaults
+*/
+.col-xs{
+    width:100px;
+}
+
+.form-control{
+    max-width:100px;
+    border-style: solid;
+    border-color: dimgray;
+}
+
+.form-group{
+    align-content: inherit;
+}
+#posterimg{
+    height: 200px;
+    width: 150px;
+}
+
+#tooltip{
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 13px;
+    display: none;
+}
+#tooltip[data-show]{
+    display:block;
+}
+
+#moreBtn{
+    offset: left;
+}
+
+#countIn{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+#addIn{
+    color: mediumaquamarine;
+    font-weight: bold;
+    text-align: center;
+}
+
+#totalIn{
+    color: deepskyblue;
+    font-weight: bold;
+    text-align: center;
+}
+
+#inTotal{
+    color: deepskyblue;
+    font-weight: bold;
+    text-align: inherit;
+}
+
+#comp{
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+#compTotal{
+    color: red;
+    font-weight: bold;
+    text-align: inherit;
+}
+
+#totalSold{
+    color: deepskyblue;
+    font-weight: bold;
+    text-align: center;
+}
+
+#gross{
+    color: deepskyblue;
+    font-weight: bold;
+    text-align: center;
+}
+
+#countOut{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+#countoutTotal{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+#totalText{
+    color: slategray;
+    font-weight: bold;
+    font-size: larger;
+}
+#cumulativeSold{
+    color: deepskyblue;
+    font-weight: bold;
+    /*text-align: center;*/
+}
+#fifthCol{
+    padding-left:55px;
+}
+#sixthCol{
+    padding-left: 45px;
+}
+#seventhCol{
+    padding-left: 45px;
+}
+#eighthCol{
+    padding-left: 55px;
+}

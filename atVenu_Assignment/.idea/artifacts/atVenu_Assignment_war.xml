@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="atVenu_Assignment:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>atVenu_Assignment</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="poster_sales.war">
+      <element id="artifact" artifact-name="atVenu_Assignment:war exploded" />
+    </root>
+  </artifact>
+</component>
